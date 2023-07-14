@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Place Order</title>
+</head>
+<header>
+    <h1 style="padding-top: 12px;">Ctrl <span>PC</span></h1>
+    <nav>
+        <ul class="navlist">
+            <li class="nav"><a href="index.html" style="font-size: 30px">Back to Shop</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="contact-box">
+        <form>
+            <h2 style="text-align: center;">Billing Details</h2>
+            <input type="text" class="input-field" id="personName" required placeholder="Name(Firstname Mi Lastname)">
+            <input type="email" class="input-field" placeholder="Email" required id="email">
+            <input type="tel" class="input-field" placeholder="Phone" required id="contact">
+            <input type="text" class="input-field" placeholder="Street" required id="street">
+            <input type="text" class="input-field" placeholder="Brgy" required id="brgy">
+            <input type="text" class="input-field" placeholder="Municipality/City" required id="town">
+            <input type="text" class="input-field" placeholder="Zip Code" required id="zip">
+            
+            <label for="method">Payment Method:</label>
+            <select name="method" id="method" style="height: 28px; width: 300px; margin-top: 10px;">
+                <option value="cod">Cash on Delivery</option>
+                <option value="gcash">Gcash</option>
+            </select>
+            <button class="addTo" id="placeOrder" style="float: right; margin-top: 10px;">Place Order</button>
+        </form>
+    </div>
+    <div class="contact-box1">
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

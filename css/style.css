@@ -1,0 +1,225 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: cornflowerblue;
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+}
+
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    color: #b0fa04;
+}
+span{
+    color: #ffffff;
+}
+.navlist{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+.nav{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+a:hover{
+    color: #F0c330;
+    transition: 0.5s;
+}
+.upButton{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    padding-top: 20px;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+  }
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  } 
+  .container1:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }  
+    .categoryHeader{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border:  1px solid #0082e6;
+    text-align: center;
+    width: 55%;
+  }
+.ti {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    width: 70%;
+}
+
+.cart {
+    width: 20%;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.products > div {
+    width: 200px;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.prod {
+    display: flex;
+    flex-direction: row;
+}
+
+.tit {
+    width: 100px;
+    padding-left: 20px;
+}
+
+#price1, #price2, #price3, #price4 {
+    margin-right: 5px;
+}
+
+.inputs, input, select {
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input {
+    width: 50px;
+}
+
+.addTo {
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #ff512f, #dd2476);
+    color: beige;
+    border-width: 0px;
+}
+
+.addTo:hover {
+    background-image: none;
+    background-color: red;
+    box-shadow: 0 0 20px red, 0 0 60px red, 0 0 60px red;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+button {
+    position: absolute;
+    right: 20px;
+    border-radius: 50%;
+    color: aliceblue;
+    background-color: #ff512f;
+    border-width: 0px;
+}
+
+button:hover {
+    background-color: #dd2476;
+}
+/* Place order */
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    height: 450px;
+}
+form{
+    margin: 30px;
+}
+.input-field{
+    width: 400px;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;;
+    outline: none;
+}
+.textarea{
+    height: 150px;
+    padding-top: 10px;
+}
+
